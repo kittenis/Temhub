@@ -1,0 +1,11 @@
+local dabsplaces = {4050215579, 4472538305, 468442797, 5248557397}
+
+for x, c in pairs (dabsplaces) do
+if game.PlaceId == c then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/DABS/main/main", true))()
+end
+end
+
+if game.PlaceId == 7788040584 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kittenis/pet-legacy/main/script", true))()
+end
